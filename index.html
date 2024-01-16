@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<main>
+  <aside class="sidebar" data-sidebar>
+
+    <div class="sidebar-info">
+
+      <figure class="avatar-box">
+        <img src="assets/images/avatar-3.png" alt="Birlikova Nagima" width="80">
+      </figure>
+
+      <div class="info-content">
+        <h1 class="name" title="Birlikova Nagima">Birlikova Nagima</h1>
+
+        <p class="title">Student</p>
+      </div>
+
+      <button class="info_more-btn" data-sidebar-btn>
+        <span>Show Contacts</span>
+
+        <ion-icon name="chevron-down"></ion-icon>
+      </button>
+
+    </div>
+
+    <div class="sidebar-info_more">
+
+      <div class="separator"></div>
+
+      <ul class="contacts-list">
+
+        <li class="contact-item">
+
+          <div class="icon-box">
+            <ion-icon name="mail-outline"></ion-icon>
+          </div>
+
+          <div class="contact-info">
+            <p class="contact-title">Email</p>
+
+            <a href="mailto:birlikovanagima@gmail.com" class="contact-link">birlikovanagima@gmail.com</a>
+          </div>
+
+        </li>
+
+        <li class="contact-item">
+
+          <div class="icon-box">
+            <ion-icon name="phone-portrait-outline"></ion-icon>
+          </div>
+
+          <div class="contact-info">
+            <p class="contact-title">Телефон</p>
+
+            <a href="tel:+996(700)287129" class="contact-link">+996 (700) 287129</a>
+          </div>
+
+        </li>
+
+        <li class="contact-item">
+
+          <div class="icon-box">
+            <ion-icon name="calendar-outline"></ion-icon>
+          </div>
+
+          <div class="contact-info">
+            <p class="contact-title">Дата рождения</p>
+
+            <time datetime="1982-06-23">26 Ноябрь, 2003</time>
+          </div>
+
+        </li>
+
+        <li class="contact-item">
+
+          <div class="icon-box">
+            <ion-icon name="location-outline"></ion-icon>
+          </div>
+
+          <div class="contact-info">
+            <p class="contact-title">Локация</p>
+
+            <address>Бишкек, Кыргызстан</address>
+          </div>
+
+        </li>
+
+      </ul>
+
+      <div class="separator"></div>
+
+      <ul class="social-list">
+
+        <li class="social-item">
+          <a href="https://github.com/Nagima20" class="social-link">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
+
+        <li class="social-item">
+          <a href="https://www.instagram.com/nagimabirlikova" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+
+  </aside>
+
+
+
+
+  <div class="main-content">
+
+    <nav class="navbar">
+
+      <ul class="navbar-list">
+
+        <li class="navbar-item">
+          <button class="navbar-link  active" data-nav-link>Обо мне</button>
+        </li>
+
+        <li class="navbar-item">
+          <button class="navbar-link" data-nav-link>Резюме</button>
+        </li>
+
+        <li class="navbar-item">
+          <button class="navbar-link" data-nav-link>Портфолио</button>
+        </li>
+
+
+        <li class="navbar-item">
+          <button class="navbar-link" data-nav-link>Контакты</button>
+        </li>
+
+      </ul>
+
+    </nav>
+
+    <article class="about  active" data-page="обо мне">
+
+      <header>
+        <h2 class="h2 article-title">Обо мне</h2>
+      </header>
+
+      <section class="about-text">
+        <p>
+          Привет! Меня зовут Нагима и я студентка Кыргызско-Германского Института прикладной информатики на факультете программных технологий.
+          Моя страсть к информационным технологиям началась еще со школы.
+          С тех пор я увлечена изучением различных аспектов программирования, разработки программного обеспечения и инновационных технологий.
+        </p>
+
+      </section>
+
+
+      <section class="service">
+
+        <h3 class="h3 service-title">Мои навыки</h3>
+
+        <ul class="service-list">
+
+          <li class="service-item">
+
+            <div class="service-icon-box">
+              <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">Backend разработка</h4>
+
+              <p class="service-item-text">
+                Работа с базой данных и функционалом продукта
+              </p>
+            </div>
+
+          </li>
+
+          <li class="service-item">
+
+            <div class="service-icon-box">
+              <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">Frontend разработка</h4>
+
+              <p class="service-item-text">
+                Создание простых и привлекательных дизайнов
+              </p>
+            </div>
+
+          </li>
+
+          <li class="service-item">
+
+            <div class="service-icon-box">
+              <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">Мобильные и веб приложения</h4>
+
+              <p class="service-item-text">
+                Разработка приложений для Android и веб приложений для любых устройств
+              </p>
+            </div>
+
+          </li>
+
+          <li class="service-item">
+
+            <div class="service-icon-box">
+              <img src="./assets/images/icon-people.png" alt="camera icon" width="40">
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">Коммуникация</h4>
+
+              <p class="service-item-text">
+
+              </p>
+            </div>
+
+          </li>
+
+        </ul>
+
+      </section>
+
+
+      <section class="testimonials">
+
+        <h3 class="h3 testimonials-title">Друзья</h3>
+
+        <ul class="testimonials-list has-scrollbar">
+
+          <li class="testimonials-item">
+            <div class="content-card" data-testimonials-item>
+
+              <figure class="testimonials-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel Kim" width="60" data-testimonials-avatar>
+              </figure>
+
+              <h4 class="h4 testimonials-item-title" data-testimonials-title>Даниель Ким</h4>
+
+              <div class="testimonials-text" data-testimonials-text>
+                <p>
+                  Даниель учится в КГУСТА на факультете Дизайна интерьера.
+                  Он обладает выдающимися навыками рисования и в настоящее время активно развивает свои таланты, работая над совершенствованием своих навыков
+                </p>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="testimonials-item">
+            <div class="content-card" data-testimonials-item>
+
+              <figure class="testimonials-avatar-box">
+                <img src="./assets/images/avatar-2.png" alt="Azatbekova Nurjamal" width="60" data-testimonials-avatar>
+              </figure>
+
+              <h4 class="h4 testimonials-item-title" data-testimonials-title>Azatbekova Nurjamal</h4>
+
+              <div class="testimonials-text" data-testimonials-text>
+                <p>
+                  Нуржамал Азатбекова учится в КГУСТА на факультете Дизайна интерьера.
+                  Она обладает выдающимися навыками рисования и в настоящее время активно развивает свои таланты, работая над совершенствованием своих навыков
+                </p>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="testimonials-item">
+            <div class="content-card" data-testimonials-item>
+
+              <figure class="testimonials-avatar-box">
+                <img src="./assets/images/avatar-3.png" alt="Imakova Nazik" width="60" data-testimonials-avatar>
+              </figure>
+
+              <h4 class="h4 testimonials-item-title" data-testimonials-title>Imakova Nazik</h4>
+
+              <div class="testimonials-text" data-testimonials-text>
+                <p>
+                  Имакова Назик учится в КГУСТА на факультете Дизайна интерьера.
+                  Она обладает выдающимися навыками рисования и в настоящее время активно развивает свои таланты, работая над совершенствованием своих навыков                </p>
+              </div>
+
+            </div>
+          </li>
+        </ul>
+
+      </section>
+
+
+      <div class="modal-container" data-modal-container>
+
+        <div class="overlay" data-overlay></div>
+
+        <section class="testimonials-modal">
+
+          <button class="modal-close-btn" data-modal-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <div class="modal-img-wrapper">
+            <figure class="modal-avatar-box">
+              <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+            </figure>
+
+            <img src="./assets/images/icon-quote.svg" alt="quote icon">
+          </div>
+
+          <div class="modal-content">
+
+            <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+            <time datetime="2021-06-14">14 November, 2023</time>
+
+            <div data-modal-text>
+              <p>
+                Даниель учится в КГУСТА на факультете Дизайна интерьера.
+                Он обладает выдающимися навыками рисования и в настоящее время активно развивает свои таланты, работая над совершенствованием своих навыков
+              </p>
+            </div>
+
+          </div>
+
+        </section>
+
+      </div>
+
+
+
+
+    </article>
+
+
+
+    <article class="resume" data-page="резюме">
+
+      <header>
+        <h2 class="h2 article-title">Резюме</h2>
+      </header>
+
+      <section class="timeline">
+
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="book-outline"></ion-icon>
+          </div>
+
+          <h3 class="h3">Образование</h3>
+        </div>
+
+        <ol class="timeline-list">
+
+          <li class="timeline-item">
+
+            <h4 class="h4 timeline-item-title">Касыке Мамбеталиев №1</h4>
+
+            <span>2010 - 2021</span>
+
+
+          </li>
+
+          <li class="timeline-item">
+
+            <h4 class="h4 timeline-item-title">Кыргызско-Германский Иститут Прикладной Информатики</h4>
+
+            <span>2021 — 2025</span>
+            <p class="timeline-text">
+              Факультет программных технологий
+            </p>
+
+          </li>
+
+        </ol>
+
+      </section>
+
+      <section class="timeline">
+
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="book-outline"></ion-icon>
+          </div>
+
+          <h3 class="h3">Опыт</h3>
+        </div>
+
+        <ol class="timeline-list">
+
+          <li class="timeline-item">
+
+            <h4 class="h4 timeline-item-title">Мой путь в IT</h4>
+
+            <span>2021 — Present</span>
+
+            <p class="timeline-text">
+                Я являюсь джуниор разработчиком. На данный момент у меня есть множество пет-проектов
+                в разных направлениях
+            </p>
+            <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Мой путь в продаже</h4>
+            <span>2022 — июнь-август</span>
+
+            <p class="timeline-text">
+                  Loris Parfume - продовец-кассиром
+            </p>
+            <span>2023 — июнь-август</span>
+
+            <p class="timeline-text">
+                  McDonalds - кассиром
+            </p>
+
+          </li>
+
+        </ol>
+
+      </section>
+
+      <section class="skill">
+
+        <h3 class="h3 skills-title">Навыки</h3>
+
+        <ul class="skills-list content-card">
+
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Python+Django</h5>
+              <data value="70">70%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 90%;"></div>
+            </div>
+
+          </li>
+
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Java+Spring Boot</h5>
+              <data value="80">80%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 80%;"></div>
+            </div>
+
+          </li>
+
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Java Script, HTML, CSS</h5>
+              <data value="60">60%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 70%;"></div>
+            </div>
+
+          </li>
+
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Dart+Flutter</h5>
+              <data value="50">50%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 60%;"></div>
+            </div>
+
+          </li>
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">C#+Avalonia</h5>
+              <data value="40">40%</data>
+            </div>
+
+
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 50%;"></div>
+            </div>
+
+          </li>
+        </ul>
+
+      </section>
+
+        <section class="skill">
+
+            <h3 class="h3 skills-title">Личные качества</h3>
+
+            <ul class="skills-list content-card">
+
+                <li class="skills-item">
+
+                    <div class="title-wrapper">
+                        <h5 class="h5">Честность</h5>
+
+                    </div>
+
+                    <div class="skill-progress-bg">
+                        <div  style="width: 90%;"></div>
+                    </div>
+
+                </li>
+
+                <li class="skills-item">
+
+                    <div class="title-wrapper">
+                        <h5 class="h5">пунктуальность</h5>
+
+                    </div>
+
+                    <div class="skill-progress-bg">
+                        <div style="width: 80%;"></div>
+                    </div>
+
+                </li>
+
+                <li class="skills-item">
+
+                    <div class="title-wrapper">
+                        <h5 class="h5">умение находить решения проблем</h5>
+
+                    </div>
+
+                    <div class="skill-progress-bg">
+                        <div style="width: 70%;"></div>
+                    </div>
+
+                </li>
+
+                <li class="skills-item">
+
+                    <div class="title-wrapper">
+                        <h5 class="h5">гибкость</h5>
+
+                    </div>
+
+                    <div class="skill-progress-bg">
+                        <div style="width: 60%;"></div>
+                    </div>
+
+                </li>
+                <li class="skills-item">
+
+                    <div class="title-wrapper">
+                        <h5 class="h5">коммуникабельность</h5>
+
+                    </div>
+
+
+
+                    <div class="skill-progress-bg">
+                        <div style="width: 50%;"></div>
+                    </div>
+
+                </li>
+            </ul>
+
+        </section>
+
+
+
+    </article>
+
+
+
+
+
+    <!--
+      - #PORTFOLIO
+    -->
+
+    <article class="portfolio" data-page="портфолио">
+
+      <header>
+        <h2 class="h2 article-title">Портфолио</h2>
+      </header>
+
+      <section class="projects">
+
+        <ul class="filter-list">
+
+          <li class="filter-item">
+            <button class="active" data-filter-btn>All</button>
+          </li>
+
+          <li class="filter-item">
+            <button data-filter-btn>Web design</button>
+          </li>
+
+          <li class="filter-item">
+            <button data-filter-btn>Applications</button>
+          </li>
+
+          <li class="filter-item">
+            <button data-filter-btn>Web development</button>
+          </li>
+
+        </ul>
+
+        <div class="filter-select-box">
+
+          <button class="filter-select" data-select>
+
+            <div class="select-value" data-selecct-value>Select category</div>
+
+            <div class="select-icon">
+              <ion-icon name="chevron-down"></ion-icon>
+            </div>
+
+          </button>
+
+          <ul class="select-list">
+
+            <li class="select-item">
+              <button data-select-item>All</button>
+            </li>
+
+            <li class="select-item">
+              <button data-select-item>Web design</button>
+            </li>
+
+            <li class="select-item">
+              <button data-select-item>Applications</button>
+            </li>
+
+            <li class="select-item">
+              <button data-select-item>Web development</button>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="project-list">
+
+          <li class="project-item  active" data-filter-item data-category="web development">
+            <a href="https://github.com/Nagima20">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./assets/images/project-1.png" alt="market" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Market</h3>
+
+              <p class="project-category">Web development</p>
+
+            </a>
+          </li>
+
+          <li class="project-item  active" data-filter-item data-category="web development">
+            <a href="https://github.com/Nagima20">
+
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./assets/images/project-2.png" alt="flowers" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Flowers</h3>
+
+              <p class="project-category">Web development</p>
+
+            </a>
+          </li>
+
+          <li class="project-item  active" data-filter-item data-category="web design">
+            <a href="https://github.com/Nagima20">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./assets/images/project-3.jpg" alt="project_2" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Project-2</h3>
+
+              <p class="project-category">Web design</p>
+
+            </a>
+          </li>
+
+          <li class="project-item  active" data-filter-item data-category="applications">
+            <a href="https://github.com/Nagima20">
+
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./assets/images/project-5.jpg" alt="portfolio" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Portfolio</h3>
+
+              <p class="project-category">Web design</p>
+
+            </a>
+          </li>
+
+          <li class="project-item  active" data-filter-item data-category="applications">
+            <a href="#">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./assets/images/project.png" alt="task manager" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Task Manager</h3>
+
+              <p class="project-category">Applications</p>
+
+            </a>
+          </li>
+
+        </ul>
+
+      </section>
+
+    </article>
+
+    <article class="blog" data-page="игры">
+
+      <header>
+        <h2 class="h2 article-title">Игры</h2>
+      </header>
+
+      <section class="blog-posts">
+
+        <ul class="blog-posts-list">
+
+          <li class="blog-post-item">
+            <a href="snake/index.html">
+
+              <figure class="blog-banner-box">
+                <img src="./assets/images/blog-1.jpg" alt="Snake" loading="lazy">
+              </figure>
+
+              <div class="blog-content">
+
+                <div class="blog-meta">
+                  <p class="blog-category">Mini-Game</p>
+
+                  <span class="dot"></span>
+
+                  <time datetime="2023-12-14">Nov 14, 2023</time>
+                </div>
+
+                <h3 class="h3 blog-item-title">Snake</h3>
+
+                <p class="blog-text">
+                  «Зме́йка», также «Питон», «Удав», «Червяк» — жанр компьютерных игр, в которых игрок управляет «головой» растущей линией — «змеи»
+                  — и не должен позволять ей столкнуться с препятствиями, в том числе со своим «хвостом»
+                </p>
+
+              </div>
+
+            </a>
+          </li>
+
+          <li class="blog-post-item">
+            <a href="clothing/index.html">
+
+              <figure class="blog-banner-box">
+                <img src="./clothing/explosion.png" alt="Bullet Hell" loading="lazy">
+              </figure>
+
+              <div class="blog-content">
+
+                <div class="blog-meta">
+                  <p class="blog-category">Mini-Game</p>
+
+                  <span class="dot"></span>
+
+                  <time datetime="2023-12-14">Nov 14, 2023</time>
+                </div>
+
+                <h3 class="h3 blog-item-title">BULLET HELL</h3>
+
+                <p class="blog-text">
+                  Игра Морской бой Поле 10 х 10, корабли расставляются случайно (игра одного игрока).
+                  В конце игры показываться статистика попаданий и затраченное время.
+                </p>
+
+              </div>
+
+            </a>
+          </li>
+
+          <li class="blog-post-item">
+            <a href="find/index.html">
+
+              <figure class="blog-banner-box">
+                <img src="./assets/images/blog-3.jpg" alt="find" loading="lazy">
+              </figure>
+
+              <div class="blog-content">
+
+                <div class="blog-meta">
+                  <p class="blog-category">Mini-Game</p>
+
+                  <span class="dot"></span>
+
+                  <time datetime="2023-12-14">Nov 14, 2023</time>
+                </div>
+
+                <h3 class="h3 blog-item-title">Find</h3>
+
+                <p class="blog-text">
+                  Это миниигра - нужно найти предметы. На фоне локация и четыре кликабельных объекта После клика на спрятанный предмет из списка, предмет исчезает. В списке название предмета тоже исчезает. Если игрок бездействует или не может найти предмет в течении 5 и более секунд - первый по списку не найденный предмет подсвечивается и пульсирует.
+                  По окончанию игры в середине экрана появляется logo игры и всплывает кнопка “Play Free”.
+                </p>
+
+              </div>
+
+            </a>
+          </li>
+
+        </ul>
+
+      </section>
+
+    </article>
+
+    <article class="contact" data-page="контакты">
+
+      <header>
+        <h2 class="h2 article-title">Контакты</h2>
+      </header>
+
+      <section class="mapbox" data-mapbox>
+        <figure>
+          <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1461.95035638561!2d74.57774973449597!3d42.874939739712715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389ec83d0ada2d09%3A0x89c7953fdea86736!2sSidikova%2C%20Bishkek%2C%20Kyrgyzstan!5e0!3m2!1sen!2sbd!4v1701860507222!5m2!1sen!2sbd" width="400" height="300"
+                  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+      </section>
+
+      <section class="contact-form">
+
+        <h3 class="h3 form-title">Свяжитесь со мной</h3>
+
+        <form action="#" class="form" data-form>
+
+          <div class="input-wrapper">
+            <input type="text" name="fullname" class="form-input" placeholder="Имя" required data-form-input>
+
+            <input type="email" name="email" class="form-input" placeholder="Email" required data-form-input>
+          </div>
+
+          <textarea name="message" class="form-input" placeholder="Ваше сообщение" required data-form-input></textarea>
+
+          <button class="form-btn" type="submit" disabled data-form-btn>
+            <ion-icon name="paper-plane"></ion-icon>
+            <span>Отправить сообщение</span>
+          </button>
+
+        </form>
+
+      </section>
+
+    </article>
+
+  </div>
+
+</main>
+
+<script src="./assets/js/script.js"></script>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
